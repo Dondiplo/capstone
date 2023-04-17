@@ -1,11 +1,21 @@
-import logo from './logo.svg';
+import About from "./components/About"
+import Footer from "./components/Footer"
+import HeroSection from "./components/HeroSection"
+import HighLights from "./components/HighLights"
+import Navbar from "./components/NavBar"
+import Testimonials from "./components/Testimonials"
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <h1>e loud o o loud gan mehn </h1>
-    </div>
+   <>
+   <Navbar/>
+   <HeroSection/>
+   <HighLights/>
+   <Testimonials/>
+   <About/>
+   <Footer/>
+   </>
   );
 }
 
